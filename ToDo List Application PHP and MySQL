@@ -1,0 +1,110 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: http://localhost:8000/
+Subject: ToDo List Application PHP and MySQL
+Date: Mon, 12 Jul 2021 16:52:18 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--dMhRBDwWKFKxgQFkJ5RsPNA8Y1oqhtA41OeM4DMHfO----"
+
+
+------MultipartBoundary--dMhRBDwWKFKxgQFkJ5RsPNA8Y1oqhtA41OeM4DMHfO----
+Content-Type: text/html
+Content-ID: <frame-D9EAA12A321B4281BA9DCD612EEB4422@mhtml.blink>
+Content-Transfer-Encoding: binary
+Content-Location: http://localhost:8000/
+
+<!DOCTYPE html><html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	  <title>ToDo List Application PHP and MySQL</title>
+   <link rel="stylesheet" type="text/css" href="http://localhost:8000/style.css">
+</head>
+<body>
+  	<div class="heading">
+		  <h2 style="font-style: 'Hervetica';">ToDo List Application PHP and MySQL database</h2>
+	  </div>
+	  <form method="post" action="http://localhost:8000/index.php" class="input_form">
+          	<p></p>
+    		     <input type="text" name="task" class="task_input">
+		     <button type="submit" name="submit" id="add_btn" class="add_btn">Add Task</button>
+	  </form>
+<table>
+  	<thead>
+ 		    <tr>
+     			  <th>N</th>
+     			  <th>Tasks</th>
+     		  	<th style="width: 60px;">Action</th> 
+    		 </tr>
+  	</thead>
+
+   	<tbody>
+     		 
+     			<tr>
+     			  	<td> 1 </td>
+     				 <td class="task"> I must read tomorrow </td>
+     				 <td class="delete">
+         					 <a href="http://localhost:8000/index.php?del_task=7">x</a> 
+         				</td>
+        			</tr> 
+     		 
+     			<tr>
+     			  	<td> 2 </td>
+     				 <td class="task"> I must read tomorrow </td>
+     				 <td class="delete">
+         					 <a href="http://localhost:8000/index.php?del_task=8">x</a> 
+         				</td>
+        			</tr> 
+     		 
+     			<tr>
+     			  	<td> 3 </td>
+     				 <td class="task"> I must read tomorrow </td>
+     				 <td class="delete">
+         					 <a href="http://localhost:8000/index.php?del_task=9">x</a> 
+         				</td>
+        			</tr> 
+     		 
+     			<tr>
+     			  	<td> 4 </td>
+     				 <td class="task"> I must read tomorrow </td>
+     				 <td class="delete">
+         					 <a href="http://localhost:8000/index.php?del_task=10">x</a> 
+         				</td>
+        			</tr> 
+     			
+   	</tbody> 
+</table>
+
+
+</body></html>
+------MultipartBoundary--dMhRBDwWKFKxgQFkJ5RsPNA8Y1oqhtA41OeM4DMHfO----
+Content-Type: text/css
+Content-Transfer-Encoding: binary
+Content-Location: http://localhost:8000/style.css
+
+@charset "utf-8";
+
+.heading { width: 50%; margin: 30px auto; text-align: center; color: rgb(107, 142, 35); background: rgb(255, 248, 220); border: 2px solid rgb(107, 142, 35); border-radius: 20px; }
+
+form { width: 50%; margin: 30px auto; border-radius: 5px; padding: 10px; background: rgb(255, 248, 220); border: 1px solid rgb(107, 142, 35); }
+
+form p { color: red; margin: 0px; }
+
+.task_input { width: 75%; height: 15px; padding: 10px; border: 2px solid rgb(107, 142, 35); }
+
+.add_btn { height: 39px; background: rgb(255, 248, 220); color: rgb(107, 142, 35); border: 2px solid rgb(107, 142, 35); border-radius: 5px; padding: 5px 20px; }
+
+table { width: 50%; margin: 30px auto; border-collapse: collapse; }
+
+tr { border-bottom: 1px solid rgb(203, 203, 203); }
+
+th { font-size: 19px; color: rgb(107, 142, 35); }
+
+th, td { border: none; height: 30px; padding: 2px; }
+
+tr:hover { background: rgb(233, 233, 233); }
+
+.task { text-align: left; }
+
+.delete { text-align: center; }
+
+.delete a { color: white; background: rgb(165, 42, 42); padding: 1px 6px; border-radius: 3px; text-decoration: none; }
+------MultipartBoundary--dMhRBDwWKFKxgQFkJ5RsPNA8Y1oqhtA41OeM4DMHfO------
